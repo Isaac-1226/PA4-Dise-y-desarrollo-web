@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Becas al extranjero</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="contenedor">
+      <header>
+        <div id="banner">
+          <ul class="bxslider">
+            <li><img src="imgs/IMG-BANNER1.avif" alt="Banner 1" title="Suiza"/></li>
+            <li><img src="imgs/IMG-BANNER2.jpg" alt="Banner 2" title="Canada"/></li>
+            <li><img src="imgs/IMG-BANNER3.avif" alt="Banner 3" title="Francia"/></li>
+            <li><img src="imgs/IMG-BANNER4.webp" alt="Banner 4" title="Australia"/></li>
+            <li><img src="imgs/IMG-BANNER5.avif" alt="Banner 5" title="Japon"/></li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <h2>
+          ¡Puedes lograr un mejor futuro estudiando en las mejores univerdiades!
+        </h2>
+        <article id="articulos">
+          <section class="seccion1">
+            <h3>Destinos</h3>
+            <p>Explora oportunidades de estudio en el extranjero en destinos como Canadá, Australia, Suiza, Francia y Japón.
+            Cada país ofrece una experiencia educativa única: desde la calidad académica y el ambiente multicultural de Canadá, 
+            hasta la innovación australiana, la precisión suiza, la cultura francesa y la tecnología japonesa. Estudia, crece y
+            prepárate para un futuro global mientras descubres el mundo.</p>
+            <img src="imgs/img1-stn.webp" alt="" />
+          </section>
+          <section class="seccion2">
+            <h3>Experiencias</h3>
+            <p>Dentro de Nuestro programa todos los paises ofrecen oportunidades unicas. Canadá te ofrece diversidad y calidad de
+            vida; Australia combina estudio con aventura; Suiza te reta con excelencia y precisión; Francia
+            te envuelve en cultura e historia; y Japón te sumerge en tecnología y tradición. Nuestra prioridad no es que se dediquen
+            unicamente al estudio, sino a crecer, conectar y descubrir el mundo desde adentro.</p>
+            <img src="imgs/img2-stn.jpg" alt="" />
+          </section>
+          <section class="seccion3">
+            <h3>Registrate y nos contactaremos contigo</h3>
+            <form name="formulario" method="get">
+              <div class="datos">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+                <br>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo" minlength="10" required>
+                <br>
+                <label for="celular">Celular:</label>
+                <input type="tel" name="numeroTel" id="celular" required>
+              </div>
+              <div class="botones">
+              <input type="submit" value="Enviar" id="btn" name="Registrarse">
+              </div>
+            </form>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <p>© 2025 Becas al Extranjero - Programa estudiantil</p>
+        <p style="margin-top: 15px;">Av. Arequipa 4130 Of. 403, Miraflores Lima - Perú</p>
+        <div>
+          <ul id="redes">
+            <li><a href="https://www.instagram.com/dargui.intercambios/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCRcbzkQntfXMdtWKSg-ndTA/videos" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/dargui-intercambios/" target="_blank"><i class="fab fa-x-twitter"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
